@@ -1,0 +1,7 @@
+1. Write a failing unit test
+2. Write the minimum production code to make your test pass
+   You are not allowed to write more production code that is sufficient to pass the currently failing unit test.
+      Note the emphasis on production code. You should write the minimum [still real] code and not the minimum silly code to make the test pass.
+      For instance, implementing a constant returning what you expect in the test case is probably the simplest code you can write to make the test pass but it's not a "production code" that solves the "real problem."
+3. Refactor the code to improve its design (e.g., rename methods or variables, split a method into two for clarity, replace magic numbers, etc.)
+4. Go back to  step 1

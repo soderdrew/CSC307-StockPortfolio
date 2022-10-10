@@ -1,0 +1,12 @@
+{
+  "name": "tdd-stock-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
+  },
+  "author": "",
+  "license": "ISC"
+}
