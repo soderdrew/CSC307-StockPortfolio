@@ -169,8 +169,3 @@ test('Testing selling too many stocks -- failure', () => {
    expect(() => myStocks.sell("AAPL", 5).toThrow(e));
 });
 
-// test('Testing updating stocks -- throw error', () => {
-//    myStocks.createPortfolio();
-//    myStocks.update("AAPL", 2);
-//    expect(() => update()).toThrow();
-// });

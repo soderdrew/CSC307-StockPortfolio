@@ -5,7 +5,6 @@ stocks.createPortfolio = function () {
    return this.portfolio;
 }
 
-// add a negative number checker
 stocks.add = function (ticker, quantity) {
    if (quantity < 1){
       throw 'Error: Can only buy 1+ of a stock, no less'
@@ -47,14 +46,3 @@ stocks.numTickers = function () {
 }
 
 module.exports = stocks;
-
-
-// const items = {
-//    type: "Bread",
-//    dry: true,
-//    itemPrice(cost) {
-//      return cost + 1;
-//    }
-//  };
-//  items.itemPrice(9);
-//  //Returns ---> 10
